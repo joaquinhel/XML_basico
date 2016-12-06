@@ -1,12 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <!--
 Diseñar un documento válido en XML que permita estructurar la información de las
 recetas de cocina de un restaurante y aplicarlo a la siguiente receta de cocina.
 Hay que hacerlo de modo que un sistema informático pueda realizar búsquedas por 
 ingredientes, cantidad de comensales o nombre de la receta.
 -->
-
-<?xml version="1.0" encoding=" iso-8859-1"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <recetas>
     <receta nombre="Sopa de cebolla">
         <ingredientes>
