@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Diseñar un documento XML válido que permita estructurar la información para 
+permitir su gestión informática de los alumnos de un módulo del ciclo formativo 
+DAW. Aplicarlo al módulo de Lenguajes de Marcas y Sistemas de Gestión de 
+Información sabiendo que tiene asignadas 4 horas semanales y es de carácter 
+obligatorio. El modulo se imparte entre el 15 de septiembre de 2010 y el 30 de 
+junio de 2011. Hay matriculados dos alumnos
+-->
+<curso> 
+    <ciclo_formativo nombre="DAW" modulo="Lenguajes de Marcas y Sistemas de Gestión de Información"/>
+    <horas_semanales numero="4"/>
+    <fecha_inicio dia="15" mes="sep" año="2010"/>
+    <fecha_final dia="30" mes="jun" año="2011"/>
+    <alumnos>
+        <alumnoficha>
+            <nombre>Ana</nombre>
+            <apellido1>Fernandez</apellido1>
+            <apellido2>Gutierrez</apellido2>
+            <nif>16965696L</nif>
+            <telefono>789654321</telefono>
+            <email>ana.fdezgtrrez@hotmail.com</email>
+            <direccion tipo="Calle" nombre="El percebe" numero="13" ciudad="Santander" codigo_postal="39302"/>
+            <falta_de_asistencia>sin datos</falta_de_asistencia>
+            <notas>sin datos</notas>
+        </alumnoficha>
+        <alumnoficha>
+            <nombre>Pepito</nombre>
+            <apellido1>Grillo</apellido1>
+            <apellido2></apellido2>
+            <nif>98765432H</nif>
+            <telefono>656566555</telefono>
+            <email>yhyh@yahoo.com</email>
+            <direccion tipo="Avenida" nombre="El pez" numero="5" ciudad="Suances" codigo_postal="39401"/>
+            <falta_de_asistencia>No</falta_de_asistencia> 
+            <notas>APTO</notas>
+        </alumnoficha>
+    </alumnos>
+</curso>
